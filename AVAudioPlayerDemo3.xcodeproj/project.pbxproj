@@ -14,6 +14,7 @@
 		59A4CEA01BB1262400253FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A4CE9E1BB1262400253FAC /* LaunchScreen.storyboard */; };
 		59A4CEAB1BB1262400253FAC /* AVAudioPlayerDemo3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4CEAA1BB1262400253FAC /* AVAudioPlayerDemo3Tests.swift */; };
 		59A4CEB61BB1262400253FAC /* AVAudioPlayerDemo3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4CEB51BB1262400253FAC /* AVAudioPlayerDemo3UITests.swift */; };
+		59EACBD41BB215B400E5C4DE /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EACBD31BB215B400E5C4DE /* SimplePlayer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		59A4CEB11BB1262400253FAC /* AVAudioPlayerDemo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioPlayerDemo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A4CEB51BB1262400253FAC /* AVAudioPlayerDemo3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioPlayerDemo3UITests.swift; sourceTree = "<group>"; };
 		59A4CEB71BB1262400253FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EACBD31BB215B400E5C4DE /* SimplePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				59A4CE951BB1262400253FAC /* AppDelegate.swift */,
 				59A4CE971BB1262400253FAC /* ViewController.swift */,
+				59EACBD31BB215B400E5C4DE /* SimplePlayer.swift */,
 				59A4CE991BB1262400253FAC /* Main.storyboard */,
 				59A4CE9C1BB1262400253FAC /* Assets.xcassets */,
 				59A4CE9E1BB1262400253FAC /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				59A4CE981BB1262400253FAC /* ViewController.swift in Sources */,
 				59A4CE961BB1262400253FAC /* AppDelegate.swift in Sources */,
+				59EACBD41BB215B400E5C4DE /* SimplePlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVAudioPlayerDemo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.nackpan.AVAudioPlayerDemo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVAudioPlayerDemo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.nackpan.AVAudioPlayerDemo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +489,7 @@
 				59A4CEBC1BB1262400253FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59A4CEBD1BB1262400253FAC /* Build configuration list for PBXNativeTarget "AVAudioPlayerDemo3Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +498,7 @@
 				59A4CEBF1BB1262400253FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59A4CEC01BB1262400253FAC /* Build configuration list for PBXNativeTarget "AVAudioPlayerDemo3UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +507,7 @@
 				59A4CEC21BB1262400253FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
