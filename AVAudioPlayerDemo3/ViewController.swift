@@ -51,7 +51,7 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate, SimpleP
         // このfunctionを抜けるときにピッカーを閉じる
         defer {
             // ピッカーを閉じ、破棄する
-            mediaPicker.dismissViewControllerAnimated(true, completion: nil)
+            dismissViewControllerAnimated(true, completion: nil)
         }
         
         // プレイヤーにitemをセットして再生
@@ -65,7 +65,7 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate, SimpleP
     // 選択がキャンセルされた場合に呼ばれる
     func mediaPickerDidCancel(mediaPicker: MPMediaPickerController) {
         // ピッカーを閉じ、破棄する
-        mediaPicker.dismissViewControllerAnimated(true, completion: nil)
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
 
